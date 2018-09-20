@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+@objc class ModelDummy : NSObject {
+    public func dummyFunc() {
+        _ = ["foo", "bar"]
+    }
+}

@@ -4,4 +4,7 @@
    <FileRef
       location = "group:SwiftSupportLibDemo.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:UtilityFramework/UtilityFramework.xcodeproj">
+   </FileRef>
 </Workspace>

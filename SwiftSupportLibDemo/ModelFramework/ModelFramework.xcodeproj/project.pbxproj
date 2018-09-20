@@ -392,6 +392,7 @@
 		FE189CCA2153F07B0007FA3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ModelFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -408,6 +409,7 @@
 		FE189CCB2153F07B0007FA3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ModelFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -10,6 +10,7 @@
 		FE189C982153F0150007FA3A /* UtilityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE189C8E2153F0140007FA3A /* UtilityFramework.framework */; };
 		FE189C9D2153F0150007FA3A /* UtilityFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE189C9C2153F0150007FA3A /* UtilityFrameworkTests.m */; };
 		FE189C9F2153F0150007FA3A /* UtilityFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FE189C912153F0140007FA3A /* UtilityFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE189CD52153F1390007FA3A /* UtilityDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE189CD42153F1390007FA3A /* UtilityDummy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		FE189C972153F0150007FA3A /* UtilityFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilityFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE189C9C2153F0150007FA3A /* UtilityFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilityFrameworkTests.m; sourceTree = "<group>"; };
 		FE189C9E2153F0150007FA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE189CD42153F1390007FA3A /* UtilityDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityDummy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				FE189C912153F0140007FA3A /* UtilityFramework.h */,
 				FE189C922153F0140007FA3A /* Info.plist */,
+				FE189CD42153F1390007FA3A /* UtilityDummy.swift */,
 			);
 			path = UtilityFramework;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				TargetAttributes = {
 					FE189C8D2153F0140007FA3A = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					FE189C962153F0150007FA3A = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -193,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE189CD52153F1390007FA3A /* UtilityDummy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +339,7 @@
 		FE189CA32153F0150007FA3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -350,6 +356,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shutterfly.swiftsupprtlibdemo.UtilityFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -357,6 +365,7 @@
 		FE189CA42153F0150007FA3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -373,6 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shutterfly.swiftsupprtlibdemo.UtilityFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -380,6 +390,7 @@
 		FE189CA62153F0150007FA3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UtilityFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -396,6 +407,7 @@
 		FE189CA72153F0150007FA3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UtilityFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

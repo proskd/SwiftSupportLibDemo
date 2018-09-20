@@ -11,6 +11,7 @@
 		FE189CC12153F07B0007FA3A /* ModelFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE189CC02153F07B0007FA3A /* ModelFrameworkTests.m */; };
 		FE189CC32153F07B0007FA3A /* ModelFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FE189CB52153F07B0007FA3A /* ModelFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE189CD32153F0EC0007FA3A /* UtilityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE189CD22153F0EC0007FA3A /* UtilityFramework.framework */; };
+		FE189CD72153F4180007FA3A /* ModelDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE189CD62153F4180007FA3A /* ModelDummy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		FE189CC02153F07B0007FA3A /* ModelFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelFrameworkTests.m; sourceTree = "<group>"; };
 		FE189CC22153F07B0007FA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE189CD22153F0EC0007FA3A /* UtilityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UtilityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE189CD62153F4180007FA3A /* ModelDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDummy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		FE189CB42153F07B0007FA3A /* ModelFramework */ = {
 			isa = PBXGroup;
 			children = (
+				FE189CD62153F4180007FA3A /* ModelDummy.swift */,
 				FE189CB52153F07B0007FA3A /* ModelFramework.h */,
 				FE189CB62153F07B0007FA3A /* Info.plist */,
 			);
@@ -159,6 +162,7 @@
 				TargetAttributes = {
 					FE189CB12153F07B0007FA3A = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					FE189CBA2153F07B0007FA3A = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -205,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE189CD72153F4180007FA3A /* ModelDummy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +351,7 @@
 		FE189CC72153F07B0007FA3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -362,6 +368,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shutterfly.swiftsupprtlibdemo.ModelFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -369,6 +377,7 @@
 		FE189CC82153F07B0007FA3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -385,6 +394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shutterfly.swiftsupprtlibdemo.ModelFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

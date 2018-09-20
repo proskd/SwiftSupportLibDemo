@@ -15,6 +15,8 @@
 		FE189C6D2153EF140007FA3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE189C6B2153EF140007FA3A /* LaunchScreen.storyboard */; };
 		FE189C702153EF140007FA3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE189C6F2153EF140007FA3A /* main.m */; };
 		FE189C7A2153EF150007FA3A /* SwiftSupportLibDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE189C792153EF150007FA3A /* SwiftSupportLibDemoTests.m */; };
+		FE189CCE2153F0C00007FA3A /* ModelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE189CCD2153F0C00007FA3A /* ModelFramework.framework */; };
+		FE189CD02153F0C00007FA3A /* UtilityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE189CCF2153F0C00007FA3A /* UtilityFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		FE189C752153EF150007FA3A /* SwiftSupportLibDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSupportLibDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE189C792153EF150007FA3A /* SwiftSupportLibDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftSupportLibDemoTests.m; sourceTree = "<group>"; };
 		FE189C7B2153EF150007FA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE189CCD2153F0C00007FA3A /* ModelFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModelFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE189CCF2153F0C00007FA3A /* UtilityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UtilityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE189CCE2153F0C00007FA3A /* ModelFramework.framework in Frameworks */,
+				FE189CD02153F0C00007FA3A /* UtilityFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +75,7 @@
 				FE189C5C2153EF120007FA3A /* SwiftSupportLibDemo */,
 				FE189C782153EF150007FA3A /* SwiftSupportLibDemoTests */,
 				FE189C5B2153EF120007FA3A /* Products */,
+				FE189CCC2153F0C00007FA3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +113,15 @@
 				FE189C7B2153EF150007FA3A /* Info.plist */,
 			);
 			path = SwiftSupportLibDemoTests;
+			sourceTree = "<group>";
+		};
+		FE189CCC2153F0C00007FA3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE189CCD2153F0C00007FA3A /* ModelFramework.framework */,
+				FE189CCF2153F0C00007FA3A /* UtilityFramework.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

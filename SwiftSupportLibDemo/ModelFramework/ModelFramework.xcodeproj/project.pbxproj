@@ -10,6 +10,7 @@
 		FE189CBC2153F07B0007FA3A /* ModelFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE189CB22153F07B0007FA3A /* ModelFramework.framework */; };
 		FE189CC12153F07B0007FA3A /* ModelFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE189CC02153F07B0007FA3A /* ModelFrameworkTests.m */; };
 		FE189CC32153F07B0007FA3A /* ModelFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FE189CB52153F07B0007FA3A /* ModelFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE189CD32153F0EC0007FA3A /* UtilityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE189CD22153F0EC0007FA3A /* UtilityFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		FE189CBB2153F07B0007FA3A /* ModelFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE189CC02153F07B0007FA3A /* ModelFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelFrameworkTests.m; sourceTree = "<group>"; };
 		FE189CC22153F07B0007FA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE189CD22153F0EC0007FA3A /* UtilityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UtilityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE189CD32153F0EC0007FA3A /* UtilityFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +59,7 @@
 				FE189CB42153F07B0007FA3A /* ModelFramework */,
 				FE189CBF2153F07B0007FA3A /* ModelFrameworkTests */,
 				FE189CB32153F07B0007FA3A /* Products */,
+				FE189CD12153F0EC0007FA3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +88,14 @@
 				FE189CC22153F07B0007FA3A /* Info.plist */,
 			);
 			path = ModelFrameworkTests;
+			sourceTree = "<group>";
+		};
+		FE189CD12153F0EC0007FA3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE189CD22153F0EC0007FA3A /* UtilityFramework.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
